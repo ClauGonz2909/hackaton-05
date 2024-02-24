@@ -26,20 +26,25 @@ header{
 }
 
 .contenido-principal{
-    background-color: aquamarine;
-    width: 80%;
+    width: 100%;
     display: flex;
     
 }
 
 .contenido-principal .columna1{
+    flex-basis:0;
     flex-grow: 30;
 }
 .contenido-principal .columna2{
-    flex-grow: 60;
-    
+    flex-basis:0;
+    flex-grow: 60;    
 }
+.contenido-principal .columna2 img{
+    width: 70%;
+}
+
 .contenido-principal .columna3{
+    flex-basis: 0;
     flex-grow: 10;
 }
     
