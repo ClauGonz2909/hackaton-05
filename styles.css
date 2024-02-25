@@ -26,6 +26,7 @@ body{
 header{
     
     width: 80%;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -34,6 +35,9 @@ header{
 }
 main{
     width: 80%;
+    height:calc(100vh - 70px);
+    display: flex;
+    align-items: center;
 }
 
 .lista {
@@ -78,6 +82,7 @@ header .logo a:last-child img{
     justify-content: space-between;
     
 }
+
 .contenido-principal .columna1 h1{
     font-family:'EB Garamond';
     font-size: 100px;
@@ -108,6 +113,20 @@ header .logo a:last-child img{
     font-size:15px ;
 
 }
+
+.columna1 div a{
+    text-decoration: none;
+    color: #2c2d2a;
+    margin-;
+    
+}
+ 
+.columna1 div a img{
+    width: 40px;
+    vertical-align: middle;
+    
+}
+
 .contenido-principal .columna2{
     flex-basis:0;
     flex-grow: 60;    
@@ -123,8 +142,27 @@ header .logo a:last-child img{
     flex-direction: column;
     justify-content: space-between;
 }
+.columna3 .num-pagina{
+    text-align: right;
+}
 .menuico li a img{
     width: 20px;
+}
+
+.columna3 .flechas-direccion a img{
+    width: 70%;
+    
+
+}
+.flechas-direccion{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+.flechas-direccion a{
+
 }
 
 
